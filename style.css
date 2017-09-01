@@ -1,0 +1,182 @@
+/* {
+	border: 1px solid black;
+}*/
+
+body {
+	background-color: black;
+}
+
+h2,
+h3,
+h4,
+h5,
+a,
+.item span,
+p {
+	font-family: Helvetica;
+	color: #fff5ee;
+	opacity: 0.9;
+	text-align: center;
+}
+
+h2 {
+	font-size: 33px;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+h4, 
+a,
+.item span,
+p {
+	font-size: 22px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+header {
+	border-bottom: 1px solid #fff5ee;
+	background-color: black;
+	position: fixed;
+	top:0px;
+	left:0px;
+	z-index: 1000;
+	width: 100%;
+	height: 69px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	height: 50px;
+	margin: 7px 10px;
+}
+
+.logo img {
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.container nav {
+	display: flex;
+	justify-content: space-between;
+	width: 25%;
+	margin: 0px 10px;
+}
+
+.container nav a {
+	text-decoration: underline;
+}
+
+.content {
+	display: flex;
+	margin: 70px 0px 0px 0px;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+.mission {
+	height: 700px;
+	width: 1200px;
+	display: flex;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	align-items: center;
+	margin: 0px 0px 30px 0px;
+}
+
+.statement {
+	width: 100%;
+	background-color: black;
+	height: 150px;
+	margin: 25px 0px 0px 0px;
+}
+
+.featured {
+	height: 700px;
+	width: 1200px;
+	display: flex;
+	align-items: bottom;
+}
+
+.featured.statement {
+	height: 100px;
+}
+
+.teas {
+	padding: 0px 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.item {
+	height: 230px;
+	width: 300px;
+	display: block;
+	margin: 10px;
+	text-align: center;
+}
+
+.item img {
+	height: 200px;
+	width: 300px;
+}
+
+.item img:hover {
+	height: 180px;
+	width: 280px;
+}
+
+.locations {
+	height: 500px;
+	width: 1200px;
+	margin: 50px 0px 0px 0px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.stores {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.store {
+	height: 300px;
+	width: 300px;
+	display: block;
+	margin: 10px;
+	margin: 0px 20px;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.store:hover {
+	background-color: #d4af37;
+}
+
+.store h3,
+.store p {
+	display: block;
+	width: 100%;
+}
+
+footer {
+	height: 200px;
+}
+
+.copyright {
+	text-align: left;
+	margin: 0px 0px 0px 20px;
+}
